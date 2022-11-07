@@ -21,14 +21,14 @@ import HashtagVegan from "./final/projects/twitter-clone/components/explore/Hash
 import HashtagHotChocolate from "./final/projects/twitter-clone/components/explore/HashtagHotChocolate";
 import Resume from "./final/components/ResumePage";
 import "./index.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/React">
+    <HashRouter>
       <Provider store={store}>
         <Routes>
           <Route path="/">
@@ -65,7 +65,7 @@ root.render(
           </Route>
         </Routes>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
