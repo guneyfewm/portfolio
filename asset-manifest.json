@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.77e18f8a.css",
-    "main.js": "/portfolio/static/js/main.9e1eb1c3.js",
+    "main.js": "/portfolio/static/js/main.8ed6870d.js",
     "static/media/slider1.jpg": "/portfolio/static/media/slider1.f64ce4a1df1e6d6bc9b0.jpg",
     "static/media/product1.png": "/portfolio/static/media/product1.4092394ee0957677184d.png",
     "static/media/cryptomaster.gif": "/portfolio/static/media/cryptomaster.913a8e174676f4ef3622.gif",
@@ -34,10 +34,10 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
     "index.html": "/portfolio/index.html",
     "main.77e18f8a.css.map": "/portfolio/static/css/main.77e18f8a.css.map",
-    "main.9e1eb1c3.js.map": "/portfolio/static/js/main.9e1eb1c3.js.map"
+    "main.8ed6870d.js.map": "/portfolio/static/js/main.8ed6870d.js.map"
   },
   "entrypoints": [
     "static/css/main.77e18f8a.css",
-    "static/js/main.9e1eb1c3.js"
+    "static/js/main.8ed6870d.js"
   ]
 }
