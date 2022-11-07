@@ -16,9 +16,6 @@ import TwitterGIF from "./projectimg/twitter.gif";
 import emailjs from '@emailjs/browser';
 function App() {
   const [slideIndex, setSlideIndex] = useState(0);
-  const handleKeyDown = (e) => {
-    const form = useRef();
-
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -29,11 +26,8 @@ function App() {
             console.log(error.text);
         });
     };
-    {
-      if (e.key == "ArrowLeft") setSlideIndex(slideIndex - 1);
-      if (e.key == "ArrowRight") setSlideIndex(slideIndex + 1);
-    }
-  };
+    const form = useRef();
+
   /* useEffect(() => {
     document.addEventListener("keydown", handleKeyDown, true);
   }, []) */ /* useEffect(() => {
@@ -241,7 +235,7 @@ function App() {
             <form
               action=""
               ref={form}
-              onSubmit={sendEmail}
+              onSubmit={()=>sendEmail()}
               className="d-flex justify-content-center"
               id="contactform"
             >
