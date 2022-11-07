@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.77e18f8a.css",
+    "main.js": "/portfolio/static/js/main.9e1eb1c3.js",
+    "static/media/slider1.jpg": "/portfolio/static/media/slider1.f64ce4a1df1e6d6bc9b0.jpg",
+    "static/media/product1.png": "/portfolio/static/media/product1.4092394ee0957677184d.png",
+    "static/media/cryptomaster.gif": "/portfolio/static/media/cryptomaster.913a8e174676f4ef3622.gif",
+    "static/media/shopbest.gif": "/portfolio/static/media/shopbest.627243918ecc82fa4801.gif",
+    "static/media/slider2.jpg": "/portfolio/static/media/slider2.2d97d0d190e808124a77.jpg",
+    "static/media/coloredglasses.png": "/portfolio/static/media/coloredglasses.b5e4700bd816760728e8.png",
+    "static/media/twitter.gif": "/portfolio/static/media/twitter.3ebcb448acf89f596c74.gif",
+    "static/media/sunglasses3.png": "/portfolio/static/media/sunglasses3.1ed17dda3cca395e9039.png",
+    "static/media/whiteglasses.png": "/portfolio/static/media/whiteglasses.6ee07a63a97b8ec51e1e.png",
+    "static/media/squareglasses3.png": "/portfolio/static/media/squareglasses3.968049b072a031b876d7.png",
+    "static/media/summersunglasses2.png": "/portfolio/static/media/summersunglasses2.25216b81174b05fdd6ce.png",
+    "static/media/coloredglasses2.png": "/portfolio/static/media/coloredglasses2.d869f461f547058fb134.png",
+    "static/media/blackglasses3.png": "/portfolio/static/media/blackglasses3.f01de3ce7873e2bc29ef.png",
+    "static/media/cherryglasses2.png": "/portfolio/static/media/cherryglasses2.865151b7dd45e1dbe0bb.png",
+    "static/media/whiteglasses2.png": "/portfolio/static/media/whiteglasses2.9fc92cc7e27dc14161be.png",
+    "static/media/sunglasses.png": "/portfolio/static/media/sunglasses.d35a5c17c8cb03f58f22.png",
+    "static/media/blackglasses2.png": "/portfolio/static/media/blackglasses2.103a868f1e59fc4bc0db.png",
+    "static/media/cherryglasses.png": "/portfolio/static/media/cherryglasses.7b957a0ee788e7672fc5.png",
+    "static/media/squareglasses2.png": "/portfolio/static/media/squareglasses2.bbf2cea08f7a61aad127.png",
+    "static/media/summersunglasses.png": "/portfolio/static/media/summersunglasses.1f89ef3ad2bc4d019e46.png",
+    "static/media/squareglasses.png": "/portfolio/static/media/squareglasses.942d3b80b8bb6d52b119.png",
+    "static/media/blackglasses.png": "/portfolio/static/media/blackglasses.d6ced659b1f51a2ff165.png",
+    "static/media/whiteglasses3.png": "/portfolio/static/media/whiteglasses3.747e9d00089cac67275f.png",
+    "static/media/thinglasses3.png": "/portfolio/static/media/thinglasses3.db060d211f91ec68ad95.png",
+    "static/media/thinglasses2.png": "/portfolio/static/media/thinglasses2.188bafcf93f1b5a9ac38.png",
+    "static/media/thinglasses.png": "/portfolio/static/media/thinglasses.978f7413c70080ea1a48.png",
+    "static/media/sunglasses2.png": "/portfolio/static/media/sunglasses2.cd5a1cbc959b93c4fb9b.png",
+    "static/media/johnprofilepic.png": "/portfolio/static/media/johnprofilepic.8b91644eeeacb46e3a5c.png",
+    "static/media/noprofilephoto.png": "/portfolio/static/media/noprofilephoto.57d14744246ac70c573b.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
+    "index.html": "/portfolio/index.html",
+    "main.77e18f8a.css.map": "/portfolio/static/css/main.77e18f8a.css.map",
+    "main.9e1eb1c3.js.map": "/portfolio/static/js/main.9e1eb1c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77e18f8a.css",
+    "static/js/main.9e1eb1c3.js"
+  ]
+}
