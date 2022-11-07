@@ -19,7 +19,7 @@ import HashtagDogs from "./final/projects/twitter-clone/components/explore/Hasht
 import HashtagPorsche from "./final/projects/twitter-clone/components/explore/HashtagPorsche";
 import HashtagVegan from "./final/projects/twitter-clone/components/explore/HashtagVegan";
 import HashtagHotChocolate from "./final/projects/twitter-clone/components/explore/HashtagHotChocolate";
-import Resume from "./final/components/ResumePage";
+import Resume from "./final/Resume";
 import "./index.css";
 import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 

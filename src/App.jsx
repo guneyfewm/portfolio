@@ -15,6 +15,8 @@ import ShopBestGIF from "./projectimg/shopbest.gif";
 import TwitterGIF from "./projectimg/twitter.gif";
 import emailjs from '@emailjs/browser';
 function App() {
+  const myRef = useRef(null)
+  const executeScroll = () => myRef.current.scrollIntoView()
   const [slideIndex, setSlideIndex] = useState(0);
     const sendEmail = (e) => {
       e.preventDefault();
@@ -43,15 +45,15 @@ function App() {
           </div>
           <div className="d-none d-md-block bg-offwhite p-4 rounded-5">
             <div className="btn-group d-flex justify-content-around">
-              <Link to="https://github.com/guneyfewm" className="fs-4 text-decoration-none link-dark">
+              <a href="https://github.com/guneyfewm" className="fs-4 text-decoration-none link-dark">
                 <Github className="m-2" />
                 Github
-              </Link>
+              </a>
               <a target="_blank" href="https://www.linkedin.com/in/g%C3%BCney-y%C4%B1lmazer-a12675255/" className="fs-4 text-decoration-none link-dark">
                 <Linkedin className="m-2" />
                 LinkedIn
               </a>
-              <Link className="fs-4 text-decoration-none link-dark">
+              <Link to="resume" className="fs-4 text-decoration-none link-dark">
                 <FileEarmarkPerson className="m-2" />
                 Resume
               </Link>
@@ -65,14 +67,16 @@ function App() {
             style={{ height: "17vh" }}
           >
             <h2 className={slideIndex !== 0 ? "d-none" : "display-5 "}>
-              I'm a front end developer who specializes<br></br> in building
+              I'm a front end developer who specializes in building<br></br>
               functional, beautiful looking and engaging websites
             </h2>
-            <h2 className={slideIndex !== 1 ? "d-none" : "display-5 mt-5"}>
-              
+            <h2 className={slideIndex !== 1 ? "d-none" : "display-5 "}>
+             I mainly use React for development because <br></br> I find it to be a fascinating tool.
+
             </h2>
-            <h2 className={slideIndex !== 2 ? "d-none" : "display-5 "}>
-              
+            <h2 className={slideIndex !== 2 ? "d-none" : "display-5"}>
+            I am passionate about learning, I believe that a developer should never <br></br>  stop learning
+because there is always something new to learn!
             </h2>
             <div className="position-absolute ms-5 ps-5 start-0 top-50">
               <button
@@ -100,12 +104,12 @@ function App() {
         </div>
       </header>
       <div className="mt-5 ">
-        <a
-          href="#projects"
+        <button
+          onClick={executeScroll}
           className="position-relative translate-middle btn goToProjects"
         >
           <ChevronDown />
-        </a>
+        </button>
       </div>
 
       <div className="customMargin">
@@ -119,7 +123,7 @@ function App() {
           portfolio site!
         </h6>
       </div>
-      <div id="projects" className="projects d-flex col-12 row">
+      <div ref={myRef} id="projects" className="projects d-flex col-12 row">
         <div className=" row d-flex mt-5 justify-content-center">
           <div className="bg-gradientcolor-slow d-flex justify-content-center flex-column rounded-5 col-sm-8 col-xxl-6">
             <Link to="projects/cryptomaster" className="">
@@ -267,15 +271,15 @@ function App() {
       </div>
       <div className="d-md-none bg-offwhite p-4 rounded-5">
             <div className="btn-group d-flex justify-content-around">
-              <Link className="fs-4 text-decoration-none link-dark">
+            <a href="https://github.com/guneyfewm" className="fs-4 text-decoration-none link-dark">
                 <Github className="m-2" />
                 Github
-              </Link>
+              </a>
               <a target="_blank" href="https://www.linkedin.com/in/g%C3%BCney-y%C4%B1lmazer-a12675255/" className="fs-4 text-decoration-none link-dark">
                 <Linkedin className="m-2" />
                 LinkedIn
               </a>
-              <Link className="fs-4 text-decoration-none link-dark">
+              <Link to="resume" className="fs-4 text-decoration-none link-dark">
                 <FileEarmarkPerson className="m-2" />
                 Resume
               </Link>
