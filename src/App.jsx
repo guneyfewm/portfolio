@@ -233,9 +233,8 @@ function App() {
             <h3 className="my-3 text-light">Contact me</h3>
 
             <form
-              action=""
               ref={form}
-              onSubmit={()=>sendEmail()}
+              onSubmit={sendEmail}
               className="d-flex justify-content-center"
               id="contactform"
             >
@@ -243,9 +242,9 @@ function App() {
                 {" "}
                 <input
                   className="mt-3 py-3 nooutline border-0"
-                  type="email"
+                  type="text"
                   name="user_name"
-                  placeholder="Your email"
+                  placeholder="Your name"
                 />
                 <input
                   className="mt-3 py-3 nooutline border-0"
@@ -257,12 +256,10 @@ function App() {
                   className="mt-3 py-5 word-break nooutline border-0 d-flex"
                   style={{ height: "300px" }}
                   type="text-area"
-                  form="contactform"
+                  name="message"
                   placeholder="Your message"
                 ></textarea>
-                <input type="submit" value="Send" className="btn btn-success border-0 mt-3 mb-3">
-                  Send
-                </input>
+                <input type="submit" value="Send" className="btn btn-success border-0 mt-3 mb-3"/>
               </div>
             </form>
           </div>
