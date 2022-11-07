@@ -28,7 +28,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="http://guneyfewm.github.io/<portfolio>/#">
       <Provider store={store}>
         <Routes>
           <Route path="/">
