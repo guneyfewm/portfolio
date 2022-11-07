@@ -43,7 +43,7 @@ function App() {
           </div>
           <div className="d-none d-md-block bg-offwhite p-4 rounded-5">
             <div className="btn-group d-flex justify-content-around">
-              <Link className="fs-4 text-decoration-none link-dark">
+              <Link to="https://github.com/guneyfewm" className="fs-4 text-decoration-none link-dark">
                 <Github className="m-2" />
                 Github
               </Link>
