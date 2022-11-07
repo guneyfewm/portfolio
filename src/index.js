@@ -28,7 +28,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/React">
       <Provider store={store}>
         <Routes>
           <Route path="/">
