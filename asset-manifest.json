@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.77e18f8a.css",
-    "main.js": "/portfolio/static/js/main.6d909e6f.js",
+    "main.js": "/portfolio/static/js/main.fad75bfc.js",
     "static/media/slider1.jpg": "/portfolio/static/media/slider1.f64ce4a1df1e6d6bc9b0.jpg",
     "static/media/product1.png": "/portfolio/static/media/product1.4092394ee0957677184d.png",
     "static/media/cryptomaster.gif": "/portfolio/static/media/cryptomaster.913a8e174676f4ef3622.gif",
@@ -30,14 +30,15 @@
     "static/media/thinglasses.png": "/portfolio/static/media/thinglasses.978f7413c70080ea1a48.png",
     "static/media/sunglasses2.png": "/portfolio/static/media/sunglasses2.cd5a1cbc959b93c4fb9b.png",
     "static/media/johnprofilepic.png": "/portfolio/static/media/johnprofilepic.8b91644eeeacb46e3a5c.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.0109d4065dc168372f3c.pdf",
     "static/media/noprofilephoto.png": "/portfolio/static/media/noprofilephoto.57d14744246ac70c573b.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
     "index.html": "/portfolio/index.html",
     "main.77e18f8a.css.map": "/portfolio/static/css/main.77e18f8a.css.map",
-    "main.6d909e6f.js.map": "/portfolio/static/js/main.6d909e6f.js.map"
+    "main.fad75bfc.js.map": "/portfolio/static/js/main.fad75bfc.js.map"
   },
   "entrypoints": [
     "static/css/main.77e18f8a.css",
-    "static/js/main.6d909e6f.js"
+    "static/js/main.fad75bfc.js"
   ]
 }
