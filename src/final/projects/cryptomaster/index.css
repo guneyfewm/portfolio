@@ -1,0 +1,136 @@
+.bodybg{
+    padding: 50px;
+    /* background-image: linear-gradient(#001a41, #081222); */
+    background-color: rgb(247, 247, 247);
+}
+.bg{
+    background-color: #0b1116
+}
+.bg-blue{
+    /* background-image: linear-gradient(#0058cc8c, #3416b9c4); */
+    border-radius: 30px;
+    background-image: linear-gradient(#ffffff, #ffffffc4);
+}
+.bg-darkblue{
+    /* background-color: #001a41; */
+    background-color: rgb(243, 243, 243);
+}
+.bg-darkbluegradient{
+    /* background-image: linear-gradient(#000000, #000000); */
+    /* background-image: linear-gradient(#0a002449, #0f024777); */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 16s ease infinite;
+    border-radius: 30px;
+    
+}
+.bg-lightcolor{
+    background-image: linear-gradient(#ffffff, #ffffffc4);
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.blue{
+    background-color: #11268663;
+}
+
+.noborderonactive:active {
+    border: none;
+    outline: none;
+    
+}
+
+.noborderonactive:focus {
+    border: none;
+    outline: none;
+    
+}
+.customWidth{
+     width: 69px;
+     height: 69px;
+     border-radius: 50px;
+}
+.coinImg{
+    width: 90px;
+    height: 90px;
+}
+.word-break{
+    word-break: break-all;
+}
+.coinSize{
+    width: 150px;
+    height: 250px;
+}
+
+.animation-bg-fast{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+    cursor: pointer;
+}
+.animation-bg-slow{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+}
+
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: #23d5ab;
+
+}
+::-moz-selection { /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: #23d5ab;
+  }
+.priceUp{
+    /* color: greenyellow; */
+    color: rgb(154, 226, 46);
+}
+.priceDown{
+    color: rgb(235, 0, 0);
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
+.btn:active{
+    outline: none;
+    border: none;
+}
+.btn{
+    outline: none;
+    border: none;
+}
+.nofocuscolor{
+    outline: none;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+    border-radius: 20px;
+  }
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

@@ -1,0 +1,244 @@
+:root {
+    --green: rgb(57, 131, 85);
+    --gray: rgb(245, 245, 245);
+  }
+.Page-Layout{
+    display:flex;
+    justify-content: space-around;
+}
+.sideBar{
+    display:flex;
+    flex-direction: column;
+}
+.main-Title{
+    margin-top: 0px;
+    font-weight: bold;
+}
+.createPost input,.createPost button{
+    border: 0px;
+
+
+}
+.mainSection{
+    border: 1px solid var(--gray);
+    border-bottom: none;
+    border-radius: 10px;
+    margin-top: 5px;
+
+
+}
+.mainHeader Hr{
+    border: 1px solid var(--gray);
+    padding: 0px 10px;
+}
+
+.createPost input{
+    padding: 20px;
+    outline: none;
+    padding-right: 250px;
+    margin-top: 0px;
+    display:flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+.createPost img{
+    border-radius: 50px;
+    width:50px;
+    height:50px;
+    margin-left: 11px;
+
+}
+.createPost-Header img{
+}
+.createPost Hr{
+    margin-top:20px;
+    border: 1px solid var(--gray);
+    padding: 0px 10px;
+}
+.createPost-Header {
+    display:flex;
+}
+.createPostBody{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.createPostBody button{
+    right: 10px;
+    bottom: -7px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color:white;
+    transform: translate(-20%);
+    background-color: var(--green);
+    cursor:pointer;
+}
+.createPostBody button:hover{
+    transition: 0.3s;
+    transform: translate(-20%) scale(96%)
+
+}
+.createPostBody-Icons{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    color:var(--green);
+}
+.createPostBody span{
+    margin-right: 10px;
+    cursor:pointer;
+}
+.deletePost{
+    position: absolute;
+    right:15px;
+    border: none;
+    background-color: rgb(61, 61, 61);
+    padding: 5px 10px;
+    border-radius: 50px;
+    color:white;
+    top:50%;
+    transform: translate(0, -70%); 
+    cursor:pointer;
+    z-index:1;
+
+}
+
+.deletePost:hover{
+    transition: 0.23s;
+    transform: translate(0, -70%) scale(105%) ;
+    background-color: rgb(124, 0, 0);
+    
+}
+.feed-container{
+    background-color: rgb(238, 238, 238);
+    display:flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    margin-top: 0px;
+
+}
+.feed{
+    margin-left: 0px;
+    padding:0;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+.Feed-Post {
+    padding:10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-left: 11px;
+    border-radius: 30px;
+    position: relative;
+    cursor:pointer;
+
+    
+
+
+}
+.profile-picture{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    margin-right:11px;
+}
+
+.Post-Body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: break-all;
+    min-width: 0;
+    
+    
+
+}
+.Post-Body p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+.post-image{
+    width: 500px;
+}
+.Post-Body h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.Post-Body h5{
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    color: rgb(202, 202, 202);
+
+}
+.Post-Body-Header{
+    display:flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main-title::after{
+
+}
+
+.sidenavbar a{
+    margin: 25px;
+    text-align: start;
+    text-decoration: none;
+    color: black;
+}
+.hamburgerNav{
+    z-index: 2;
+    background-color: white;
+}
+.hamburgerButton{
+    z-index: 2;
+}
+.sidebar-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.sidebar-active{
+    color:aquamarine;
+}
+#img-upload{
+    display: none;
+}
+.img-upload{
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 100vh rgba(0, 0, 0, 0.452);
+    z-index: 3;
+    height: 300px;
+    transform: translate(-50%,-50%);
+}
+.img-upload-label{
+    z-index: 4;
+}
+.hitbox{
+     /* Making the hitbox be behind Img Upload */
+    z-index: 2;
+}
+.nooutline{
+    outline: none;
+}
+#imageFile{
+    display: none;
+}
+.bg-green{
+    background-color: var(--green);
+}
+.color-green{
+    color: var(--green);
+}

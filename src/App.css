@@ -1,39 +1,64 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.goToProjects{
+  animation: goToProjectsFloat 1.2s linear infinite alternate;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+@keyframes goToProjectsFloat {
+  0%   {top:-5px;}
+  25%  {top:0px;}
+  50%  {top:5px;}
+  75%  {top:0px;}
+  100% {top:-5px;}
 }
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.floatLeft{
+  animation: leftFloat 1s linear infinite alternate;
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
+@keyframes leftFloat {
+  0%   {right:-5px;}
+  25%  {right:0px;}
+  50%  {right:5px;}
+  75%  {right:0px;}
+  100% {right:-5px;}
 }
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.floatRight{
+  animation: rightFloat 1s linear infinite alternate;
+}
+@keyframes rightFloat {
+  0%   {right:-5px;}
+  25%  {right:0px;}
+  50%  {right:5px;}
+  75%  {right:0px;}
+  100% {right:-5px;}
+}
+.customMargin{
+  margin-top: 200px;
+}
+.bg-gradientcolor{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+}
+.bg-gradientcolor-slow{
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 16s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.bg-offwhite
+{
+  background-color: rgb(252, 252, 252);
+}
+.cartitem{
+  width: 150px;
 }
