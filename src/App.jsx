@@ -148,9 +148,9 @@ function App() {
               >
                 Live Preview
               </Link>
-              <Link className="rounded-3 py-5 fs-4 btn btn-light ms-5 me-5">
+              <a href="https://github.com/guneyfewm/cryptomaster" className="rounded-3 py-5 fs-4 btn btn-light ms-5 me-5">
                 Code Preview
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -181,9 +181,9 @@ function App() {
               >
                 Live Preview
               </Link>
-              <Link className="rounded-3 py-5 fs-4 btn btn-light ms-5 me-5">
+              <a href="https://github.com/guneyfewm/twitterclone" className="rounded-3 py-5 fs-4 btn btn-light ms-5 me-5">
                 Code Preview
-              </Link>
+              </a>
             </div>
           </div>
           <div className="row d-flex mt-5 justify-content-center">
@@ -213,9 +213,9 @@ function App() {
                 >
                   Live Preview
                 </Link>
-                <Link className="rounded-3 py-5 fs-4 btn btn-light ms-5 me-5">
+                <a href="https://github.com/guneyfewm/shopbest" className="rounded-3 py-5 fs-4 btn btn-light ms-5 me-5">
                   Code Preview
-                </Link>
+                </a>
               </div>
             </div>
           </div>

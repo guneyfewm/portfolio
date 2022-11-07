@@ -22,8 +22,8 @@ const Bookmarked = () => {
             <img className="profile-picture" src={post.userId==user.userId ? user.imgSrc : post.imgSrc } />
             <div className="Post-Body">
               <div className="Post-Body-Header">
-                <h4>{post.userName}</h4>
-                <h5>{`@${post.handle}`}</h5>
+                <h4>{post.userId==user.userId ? user.userName : post.userName}</h4>
+                <h5>{`@${post.userId==user.userId ? user.handle : post.handle}`}</h5>
               </div>
               <p>{post.postText}</p>
               {post.postSrc !== "" ? (
