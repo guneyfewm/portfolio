@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useRef } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import {
@@ -13,9 +13,22 @@ import { Link } from "react-router-dom";
 import CryptoMasterGIF from "./projectimg/cryptomaster.gif";
 import ShopBestGIF from "./projectimg/shopbest.gif";
 import TwitterGIF from "./projectimg/twitter.gif";
+import emailjs from '@emailjs/browser';
 function App() {
   const [slideIndex, setSlideIndex] = useState(0);
   const handleKeyDown = (e) => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_yyauj5s', 'template_1ad957f', form.current, 'tzNLJ0piq51LkqfCh')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     {
       if (e.key == "ArrowLeft") setSlideIndex(slideIndex - 1);
       if (e.key == "ArrowRight") setSlideIndex(slideIndex + 1);
@@ -227,7 +240,8 @@ function App() {
 
             <form
               action=""
-              onSubmit={(e) => e.preventDefault()}
+              ref={form}
+              onSubmit={sendEmail}
               className="d-flex justify-content-center"
               id="contactform"
             >
@@ -236,6 +250,13 @@ function App() {
                 <input
                   className="mt-3 py-3 nooutline border-0"
                   type="email"
+                  name="user_name"
+                  placeholder="Your email"
+                />
+                <input
+                  className="mt-3 py-3 nooutline border-0"
+                  type="email"
+                  name="user_email"
                   placeholder="Your email"
                 />
                 <textarea
@@ -245,9 +266,9 @@ function App() {
                   form="contactform"
                   placeholder="Your message"
                 ></textarea>
-                <button className="btn btn-success border-0 mt-3 mb-3">
+                <input type="submit" value="Send" className="btn btn-success border-0 mt-3 mb-3">
                   Send
-                </button>
+                </input>
               </div>
             </form>
           </div>
